@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    background-image: url(https://i.pinimg.com/736x/53/82/9f/53829fbda28e33154aa8b1e63df3cb35.jpg);
+}
+#main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(50px);
+    color: white;
+}
