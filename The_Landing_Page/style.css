@@ -12,7 +12,7 @@ body{
     color:white;
     display:flex;
     flex-direction: column;
-    justify-content: space-evenly;
+   padding: 20px 0 60px;
     font-size: 18px;
 }
 a{
@@ -24,19 +24,27 @@ ul{
     list-style-type: none;
     display:flex;
     gap:10px;
+     margin: 0;
+     padding:0px;
 
 }
-h3{
+h2{
+  margin:0;
+}
+ h3{
     font-size: 24px;
     color:#F9FAF8;
+      margin: 0;  
 }
 .nav-links{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+     padding: 0 250px;  
+     
+
 }
 .container{
-   
      flex: 1;
   height: 220px;
   display: flex;
@@ -45,11 +53,10 @@ h3{
     background-color: hsla(0, 0%, 50%, 0.631);
     display:flex;
     flex-direction: row;
- flex:1;
      display: flex;
   align-items: center;
   justify-content: center;
- 
+ margin-top:70px;
 }
 h2{
     font-size: 48px;
@@ -58,13 +65,15 @@ h2{
 }
 .header-content{
     display: flex;
-  align-items: center;
+
   gap: 52px;
+  align-items: flex-start;
   max-width: 1100px;
      margin:  auto;
     flex:1;
 }
 .ctn{
+  margin-top:70px;
     flex: 1;
   display: flex;
   flex-direction: column;
@@ -131,6 +140,7 @@ gap:10px;
   font-style: italic;
   font-weight: 300;
   color: #1f2937;
+  text-align: left;
 }
 .author {
   margin-top: 20px;
@@ -138,4 +148,54 @@ gap:10px;
   font-size: 24px;
   font-weight: 700;
   color: #1f2937;
+}
+.signup{
+  display:flex;
+  background-color:#3882F6;
+  justify-content: space-between;
+   align-items: center; 
+  margin: 70px auto;
+  border-radius: 7px;
+  max-width: 800px;
+  padding: 40px 60px;  
+}
+
+.para p {
+  margin: 0;
+ line-height: 1.1;
+  
+}
+.para h2{
+margin:0;
+ line-height: 1.1;
+}
+
+.para{
+
+  color:#F9FAF8;
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+
+
+}
+.sign{
+background-color: transparent;
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
+  padding: 8px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.footer{
+  background-color: #1F2937;
+  height: 80px;              
+  width: 100%;           
+  display: flex;
+  justify-content: center;  
+  align-items: center;    
+  color: white;
+  margin-top: 70px;
 }
